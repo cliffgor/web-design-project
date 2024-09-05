@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .public-universities {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .private-universities {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .public-universities ol, .private-universities ol {
+    list-style-position: outside;
+  }
+
+  .h1-tag {
+    text-align: center;
+  }
+
+  body {
+    background-color: chocolate;
+  }
